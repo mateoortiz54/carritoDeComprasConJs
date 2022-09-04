@@ -1,0 +1,38 @@
+#respuesta{
+
+    width: 200px;
+}
+
+#imagen1, #imagen2{
+    width: 180px;
+    height: 180px;
+}
+
+#tarjetica{
+    text-align: center;    
+    
+
+}
+
+#centro{
+    text-align: center;
+    margin: auto;
+}
+
+.imgtarjeta{
+    width: 80px;
+    height: 80px;
+}
+
+
+.card-content{
+    height: 300px;
+}
+input#inputNombre {
+    width: 50px;
+    height: 150px;
+}
+
+#carritoAgregar{
+    text-align: right;
+}

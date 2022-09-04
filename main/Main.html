@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fecth API</title>
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</head>
+
+<body>
+
+    <div id="centro">
+        <div id="inputcito">
+            <form class="input-field col m2">
+                <input type="number" id="respuesta" placeholder="Escriba"><br>
+                <button class="btn waves-effect waves-light" name="action">Buscar<i
+                        class="material-icons right">send</i>
+                </button>
+                <button class="btn waves-effect waves-light" id="button2" name="action">Registrar<i
+                        class="material-icons right">send</i>
+                </button>
+                <button class="btn waves-effect waves-light" id="button3" name="action">Actualizar<i
+                        class="material-icons right">send</i>
+                </button>
+                <button class="btn waves-effect waves-light" id="button4" name="action">eliminar<i
+                        class="material-icons right">send</i>
+                </button>
+                <button class="btn waves-effect waves-light" id="button5" name="action">listar<i
+                        class="material-icons right">send</i>
+                </button>
+                <button class="btn waves-effect waves-light" id="button6" name="action">listar Todos en tarjeta<i
+                        class="material-icons right">send</i>
+                </button>
+                <a class="btn waves-effect waves-light " href="carrito.html">carrito <i
+                        class="material-icons right">shopping_cart</i></a>
+            </form>
+        </div>
+        <div id="divs" class="row"></div>   
+        <div class="row product-container" id="tarjetica">
+            <div class="col s12 m2">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="#" id="imagen1">
+                        <span class="card-title">Card Title</span>
+                    </div>
+                    <div class="card-content">
+                        <strong id="titulo1"></strong><br>
+                        <strong>Precio: $</strong>
+                        <strong id="precio"></strong>
+
+                        <p id="descripcion">I am a very simple card. I am good at containing small bits of information.
+                            I am convenient because I require little markup to use effectively.</p><br>
+                        <button class="btn waves-effect waves-light AgregarCarritoo" name="action"><i
+                                class="material-icons right">add_shopping_cart</i>
+                        </button>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Agregado hace 20 minutos</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <table id="tablita">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Precio</th>
+                <th>Imagen</th>
+                <th>Cantidad</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody id="cuerpoTabla"></tbody>
+    </table>
+
+
+
+
+
+    </div>
+
+    <script src="../JavaScript/main.js"></script>
+</body>
+
+</html>
